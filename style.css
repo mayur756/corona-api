@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+#corona {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+#corona div {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+#corona div:last-child {
+    border-bottom: none;
+}
+#corona p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #0c0a0a;
+}
+#corona a {
+    text-decoration: none;
+    color: #337ab7;
+}
+#corona a:hover {
+    color: #896be9;
+}
+#corona hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+/* Additional CSS style */
+.region-data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.region-data p {
+    width: 45%;
+    margin-bottom: 10px;
+}
+.region-data a {
+    width: 45%;
+    text-align: right;
+}
